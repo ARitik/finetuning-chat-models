@@ -58,5 +58,35 @@ Ingredients:
 - left, right = 0, len(arr) - 1
 - while left <= right:
 - mid = left + (right - left) // 2
-```
+
+
+### Improvements
+
+
+For improving this project involving a fine-tuned language model like GPT-2 for text generation, we thought of the following steps to improve the responses if the time permitted: - 
+
+# Diversify Training Data:
+
+The model was exhibiting behavior limited to a specific domain, so we considered diversifying the training data, including examples from various domains to make the model more versatile in generating text on different topics.
+
+# Fine-Tuning Parameters:
+
+We thought of experimenting with different hyperparameters during the fine-tuning process. Adjusting parameters like learning rate, batch size, and the number of training steps could have impacted the model's performance.
+
+# Prompt Engineering:
+
+We tried different prompt engineering strategies. The prompts provided to the model can influence the generated responses. We thought of performing experiments with variations in prompts to improve the relevance and coherence of the generated text.
+
+# Post-Processing of Responses:
+
+We thought of implementing the post-processing steps to refine the model's outputs. This could involve additional logic to ensure the generated text conforms to certain standards or expectations, especially when dealing with specific topics.
+
+# User Feedback Mechanism:
+
+Implementing a feedback loop where users can provide feedback on the generated responses. This data can be valuable for further fine-tuning or adjusting the model's behavior based on user preferences.
+
+# Model Selection:
+
+We considered exploring other pre-trained models or versions of GPT (such as GPT-3) to see if they better suit our project's requirements. Only the GPT-2 model was available to us for free.
+
 
