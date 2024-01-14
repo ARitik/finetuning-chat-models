@@ -59,7 +59,7 @@ Ingredients:
 - while left <= right:
 - mid = left + (right - left) // 2
 
-
+```
 ### Improvements
 
 
